@@ -17,8 +17,6 @@ d2 <- dip(6-x, full=TRUE)
 str(d1)
 str(d2)
 
-library(stepfun)
-
 ##mult.fig(2, main = "dip() problem with 'mirror x'")
 par(mfrow = 2:1, mar = .1+c(3,4,2,1), mgp=c(1.5,.6,0), oma = c(0,0,2.1,0))
 
