@@ -1,7 +1,7 @@
 Package: diptest
-Version: 0.9-1
-Date: 2003-07-14
-Title: Hartigan's dip test statistic for unimodality
+Version: 0.25-0
+Date: 2003-11-29
+Title: Hartigan's dip test statistic for unimodality - corrected code
 Description: Compute Hartigan's dip test statistic for unimodality
 Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
 Author: Martin Maechler,

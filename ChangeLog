@@ -1,3 +1,34 @@
+2003-12-03  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* man/qDiptab.Rd: names(dimnames) in example
+
+2003-11-29  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* DESCRIPTION (Date):  --> for release
+	* man/qDiptab.Rd: one million simulations!
+	* data/qDiptab.rda: new data from simulation with symmetry fix;
+	  the dimnames are now named 'n' and 'Pr'.
+
+	* man/dip.Rd: describe bug fix
+
+2003-11-13  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* DESCRIPTION (Version): 0.25-0
+
+2003-10-31  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* src/dip.c (diptst):
+	        o  symmetry fix by Yong Lu -- changes results! (now <= 0.25 !)
+	                                      ================
+		o  speedup by myself: not dividing by N but at the end;
+		o  return 2-index into x, instead of (xl,xu)
+	* R/dip.R (dip): new .C() interface
+
+	* tests/mechler-ex.R: the two examples from Ferenc Mechler's
+	Statlib readme file (on his "fix" to the diptst fortran code).
+
+	* man/dip.Rd: describe full return list (for full.result = T)
+
 2003-07-14  Martin Maechler  <maechler@stat.math.ethz.ch>
 
 	* man/qDiptab.Rd:  "large" scale simulation
