@@ -1,0 +1,5 @@
+dip                     Compute Hartigan's Dip Test Statistic for
+                        Unimodality
+qDiptab                 Table of Quantiles from a Large Simulation for
+                        Hartigan's Dip Test
+statfaculty             Faculty Quality in Statistics Departments

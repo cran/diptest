@@ -1,0 +1,14 @@
+2003-07-14  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* man/qDiptab.Rd:  "large" scale simulation
+	* data/qDiptab.rda: table of quantiles
+
+2003-07-11  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* tests/ex1.R: added testing examples; 3 data sets
+	* tests/sim1.R: small simulation (~ as Hartigan)
+
+2001-01-01  Martin Mächler  <maechler@stat.math.ethz.ch>
+
+	* DESCRIPTION (Version): 0.9-1
+	  added `Maintainer' field

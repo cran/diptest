@@ -1,0 +1,9 @@
+o  an actual dip *test*, i.e. compute a P-value for the dip statistic;
+   using a
+
+
+would be nice:
+
+o  Visualize the l.c.m. and g.c.m. and the modal interval !
+   g.c.m = greatest convex minorant =: G(x)
+   l.c.m = least   concave majorant =: H(x)
