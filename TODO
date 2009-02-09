@@ -1,5 +1,8 @@
 o  an actual dip *test*, i.e. compute a P-value for the dip statistic;
-   using a
+   using (spline) interpolation in qDiptab.
+
+o  Consider an analogue qnormDiptab  which is constructed using
+   rnorm(.) instead of runif(.) simulations
 
 
 would be nice:
