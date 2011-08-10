@@ -1,3 +1,53 @@
+2011-08-10  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* R/dipTest.R (dip.test): use readRDS() instead of data() in the function.
+
+2011-05-25  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* R/dip.R (print.dip, plot.dip): show the extra GCM/LCM's.
+
+	* man/plot.dip.Rd: document plot.dip()
+
+2011-05-20  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* DESCRIPTION (Version): 0.75-0; not released, just sent to Nick Cox.
+
+2011-05-19  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* R/dipTest.R (dip.test): finally add a dip.test(), with a P-value.
+
+2011-05-17  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* NAMESPACE: start using
+
+	* data/exHartigan.R: add deprecation message, and use statfaculty.
+	* DESCRIPTION: hence drop 'Lazydata' for now.
+	* man/statfaculty.Rd: also mention 'exHartigan' which is now deprecated.
+
+	* R/dip.R (dip): new 'min.is.0' argument; store 'call' and return class "dip" when
+	'full.result' is true. Further, only return the finally effective parts of LCM & GCM.
+	Allow 'debug' to be integer > 1, and support that in
+	(print.dip, plot.dip): methods, notably the plot which draws the
+	LCM and GCM.
+
+	* src/dip.c (diptst): allow for more debug output; also return the
+	lengths of 'gcm' and 'lcm'.
+
+2011-05-15  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* DESCRIPTION (Version): 0.30-0
+
+	* src/dip.c (diptst): simplification: return 1/(2N) for N < 2 or
+	all x[j] identical; instead of zero for N < 4 or all x[] identical.
+	This finally makes dip(x1) == dip(x2)
+	when x1 <- rep(1,n)
+	and  x2 <- c(0.999999999, rep(1, n-1)).
+
+2011-05-14  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* inst/doc/diptest-issues.Rnw: finally look into computing P-values
+	from the table.  TODO: make into function
+
 2010-08-11  Martin Maechler  <maechler@stat.math.ethz.ch>
 
 	* DESCRIPTION (Version): 0.25-3
