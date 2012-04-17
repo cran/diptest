@@ -1,4 +1,19 @@
+2012-04-17  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* DESCRIPTION (Version): 0.75-3, released to CRAN ...
+	* R/dipTest.R (dip.test): more careful with approx() extrapolation.
+
+2011-08-19  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* R/dip.R (plot.dip): cosmetic (to happify CRAN)
+
 2011-08-10  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* inst/doc/diptest-issues.Rnw: at least now mention dip.test().
+
+2011-08-10  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* DESCRIPTION (Version): 0.75-1, released to CRAN today.
 
 	* R/dipTest.R (dip.test): use readRDS() instead of data() in the function.
 
