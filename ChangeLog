@@ -1,3 +1,12 @@
+2012-08-07  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* R/dipTest.R (dip.test): state 'alternative'.
+
+2012-08-02  Martin Maechler  <maechler@stat.math.ethz.ch>
+
+	* R/dipTest.R (rdRDS): utility to enable pre-R-2.13, also used in
+	* data/qDiptab.R:
+
 2012-04-17  Martin Maechler  <maechler@stat.math.ethz.ch>
 
 	* DESCRIPTION (Version): 0.75-3, released to CRAN ...

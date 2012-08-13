@@ -1,3 +1,10 @@
+##' also called from ../data/qDiptab.R :
+rdRDS <- function(..., package = "diptest") {
+    if(getRversion() < "2.13.0")
+	.readRDS(system.file(..., package=package))
+    else readRDS(system.file(..., package=package, mustWork=TRUE))
+}
+
 dip.test <- function(x, simulate.p.value = FALSE, B = 2000)
 {
     DNAME <- deparse(substitute(x))
@@ -14,8 +21,7 @@ dip.test <- function(x, simulate.p.value = FALSE, B = 2000)
 	P <- mean(D <= replicate(B, dip(runif(n))))
     } else {
 	## Long "codetools-compatible" way of	data(qDiptab) :
-	qDiptab <- readRDS(system.file("extraData", "qDiptab.rds",
-				       package="diptest", mustWork=TRUE))
+	qDiptab <- rdRDS("extraData", "qDiptab.rds")
 	dn <- dimnames(qDiptab)
 	max.n <- max(nn <- as.integer(dn[["n"]]))
 	P.s <- as.numeric(dn[["Pr"]])
@@ -39,5 +45,6 @@ dip.test <- function(x, simulate.p.value = FALSE, B = 2000)
 			xout = sD)[["y"]]
     }
     structure(list(statistic = c(D = D), p.value = P, nobs = n,
+		   alternative = "non-unimodal, i.e., at least bimodal",
 		   method = method, data.name = DNAME), class = "htest")
 }
