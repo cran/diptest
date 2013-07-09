@@ -1,0 +1,641 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.12.11)  18 MAY 2011 09:49
+entering extended mode
+ %&-line parsing enabled.
+**\nonstopmode\input{diptest-issues.tex}
+(./diptest-issues.tex (./jss.cls
+Document Class: jss 2009/09/24 2.0 jss class by Achim Zeileis
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/ltxmisc/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/u/sfs/tex/tex/latex/a4.sty
+--- new A4 size; Martin Maechler, version Dec 1992
+)) (/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/ae/ae.sty
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count88
+\FV@InFile=\read1
+\FV@TabBox=\box26
+\c@FancyVerbLine=\count89
+\FV@StepNumber=\count90
+\FV@OutFile=\write3
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/u/sfs/tex/tex/latex/upquote.sty
+Package: upquote 2003/08/11 v1.1 Covington's upright-quote modification to verb
+atim and verb
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+))
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count91
+)
+\footerskip=\skip45
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/11/27 v6.79k Hypertext links for LaTeX
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen105
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/11/27 v6.79k Hyperref: PDFDocEncoding definition (HO)
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Hyper figures OFF on input line 3022.
+Package hyperref Info: Link nesting OFF on input line 3027.
+Package hyperref Info: Hyper index ON on input line 3030.
+Package hyperref Info: Plain pages OFF on input line 3037.
+Package hyperref Info: Backreferencing OFF on input line 3042.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3238.
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3475.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count94
+\Field@Width=\dimen106
+\Fld@charsize=\dimen107
+\Field@toks=\toks15
+Package hyperref Info: Hyper figures OFF on input line 4435.
+Package hyperref Info: Link nesting OFF on input line 4440.
+Package hyperref Info: Hyper index ON on input line 4443.
+Package hyperref Info: backreferencing OFF on input line 4450.
+Package hyperref Info: Link coloring OFF on input line 4455.
+Package hyperref Info: Link coloring with OCG OFF on input line 4460.
+Package hyperref Info: PDF/A mode OFF on input line 4465.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count95
+\c@Item=\count96
+\c@Hfootnote=\count97
+)
+*hyperref using default driver hpdftex*
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/11/27 v6.79k Hyperref driver for pdfTeX
+\Fld@listcount=\count98
+\c@bookmark@seq@number=\count99
+\Hy@SectionHShift=\skip46
+)
+\preXLskip=\skip47
+\preLskip=\skip48
+\preMskip=\skip49
+\preSskip=\skip50
+\postMskip=\skip51
+\postSskip=\skip52
+
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 426.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 426.
+Package hyperref Info: Option `linktocpage' set `true' on input line 426.
+Package hyperref Info: Option `plainpages' set `false' on input line 426.
+) (/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count100
+\U@D=\dimen108
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen109
+))
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count101
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count102
+\leftroot@=\count103
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count104
+\DOTSCASE@=\count105
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
+\dotsspace@=\muskip11
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks17
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks18
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks19
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2008/08/01 v1.06 mathematical typesetting tools (MH)
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count113
+\calc@Bcount=\count114
+\calc@Adimen=\dimen118
+\calc@Bdimen=\dimen119
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count115
+\calc@Cskip=\skip58
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/mh/mhsetup.sty
+Package: mhsetup 2007/12/03 v1.2 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count116
+\l_MT_multwidth_dim=\dimen120
+)
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(./diptest-issues.aux)
+\openout1 = `diptest-issues.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 119.
+
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen121
+\scratchbox=\box29
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen122
+\MPnumerator=\count121
+\everyMPtoPDFconversion=\toks22
+)
+Package hyperref Info: Link coloring ON on input line 119.
+ (/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2009/12/02 v2.33 Cross-referencing by name of section
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count122
+)
+LaTeX Info: Redefining \ref on input line 119.
+LaTeX Info: Redefining \pageref on input line 119.
+
+(./diptest-issues.out) (./diptest-issues.out)
+\@outlinefile=\write4
+\openout4 = `diptest-issues.out'.
+
+\AtBeginShipoutBox=\box30
+
+<jsslogo.jpg, id=39, 540.0175pt x 393.47pt>
+File: jsslogo.jpg Graphic file (type jpg)
+ <use jsslogo.jpg>
+LaTeX Font Info:    Try loading font information for T1+pzc on input line 119.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/psnfss/t1pzc.fd
+File: t1pzc.fd 2001/06/04 font definitions for T1/pzc.
+)
+LaTeX Font Info:    Font shape `T1/pzc/m/n' in size <28> not available
+(Font)              Font shape `T1/pzc/mb/it' tried instead on input line 119.
+LaTeX Font Info:    Try loading font information for U+msa on input line 119.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 119.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for T1+aett on input line 131.
+
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+
+LaTeX Font Warning: Font shape `T1/aett/bx/n' undefined
+(Font)              using `T1/aett/m/n' instead on input line 173.
+
+LaTeX Font Info:    Try loading font information for T1+aess on input line 173.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/ae/t1aess.fd
+File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
+) [1
+
+{/hg/s/linux/9/app/teTeX/11.09/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </
+u/maechler/tex/tex/latex/JSS/jsslogo.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 195.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 195.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 195.
+
+LaTeX Font Info:    Try loading font information for TS1+aett on input line 220
+.
+(/u/sfs/tex/tex/latex/R_latex/ts1aett.fd
+File: ts1aett.fd 
+)
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 220
+.
+
+(/hg/s/linux/9/app/teTeX/11.09/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `TS1/aett/m/sl' in size <10> not available
+(Font)              Font shape `TS1/cmtt/m/sl' tried instead on input line 220.
+
+
+<diptest-issues-dip_n-is-5.pdf, id=68, 505.89pt x 289.08pt>
+File: diptest-issues-dip_n-is-5.pdf Graphic file (type pdf)
+
+<use diptest-issues-dip_n-is-5.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (5.47499pt too wide) has occurred while \output is active
+\T1/aer/m/n/10.95 2 []
+ []
+
+[2] <diptest-issues-dip_n-is-8.pdf, id=89, 505.89pt x 289.08pt>
+File: diptest-issues-dip_n-is-8.pdf Graphic file (type pdf)
+
+<use diptest-issues-dip_n-is-8.pdf>
+<diptest-issues-2nd-small-sample-phenomen--n-eq-11.pdf, id=90, 505.89pt x 289.0
+8pt>
+File: diptest-issues-2nd-small-sample-phenomen--n-eq-11.pdf Graphic file (type 
+pdf)
+ <use diptest-issues-2nd-small-sample-phenomen--n-eq-11.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (5.47499pt too wide) has occurred while \output is active
+[] \T1/aer/m/n/10.95 3
+ []
+
+[3 <./diptest-issues-dip_n-is-5.pdf> <./diptest-issues-dip_n-is-8.pdf>]
+Overfull \hbox (5.47499pt too wide) has occurred while \output is active
+\T1/aer/m/n/10.95 4 []
+ []
+
+[4 <./diptest-issues-2nd-small-sample-phenomen--n-eq-11.pdf>]
+<diptest-issues-sqrt-n-qdip.pdf, id=123, 505.89pt x 289.08pt>
+File: diptest-issues-sqrt-n-qdip.pdf Graphic file (type pdf)
+
+<use diptest-issues-sqrt-n-qdip.pdf>
+Overfull \hbox (5.47499pt too wide) has occurred while \output is active
+[] \T1/aer/m/n/10.95 5
+ []
+
+[5 <./diptest-issues-sqrt-n-qdip.pdf>]
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 371.
+
+ (/u/sfs/tex/tex/latex/R_latex/ts1aer.fd
+File: ts1aer.fd 
+)
+LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10.95> not available
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 371.
+(./diptest-issues.bbl)
+LaTeX Font Info:    Font shape `T1/pzc/m/n' in size <13> not available
+(Font)              Font shape `T1/pzc/mb/it' tried instead on input line 381.
+
+Underfull \vbox (badness 6510) has occurred while \output is active []
+
+
+Overfull \hbox (5.47499pt too wide) has occurred while \output is active
+\T1/aer/m/n/10.95 6 []
+ []
+
+[6]
+Overfull \hbox (5.47499pt too wide) has occurred while \output is active
+[] \T1/aer/m/n/10.95 7
+ []
+
+[7] (./diptest-issues.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7608 strings out of 493848
+ 109485 string characters out of 3146995
+ 175457 words of memory out of 3000000
+ 10613 multiletter control sequences out of 15000+200000
+ 63488 words of font info for 133 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 46i,9n,34p,380b,505s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
+s1.enc}{/hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/enc/dvips/base/8r.enc}</
+hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr9.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsl10.pfb></hg/s/linux/9/app/teTeX/11.09/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></hg/s/linux/9/app/teTeX/11.
+09/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></hg/s/linux/9/app/teTe
+X/11.09/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></hg/s/linux/9/a
+pp/teTeX/11.09/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></hg/s/linu
+x/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></hg/s/
+linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pf
+b></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmtt12.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmtt9.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/public/cm
+-super/sfrm1095.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/publi
+c/cm-super/sfst1000.pfb></hg/s/linux/9/app/teTeX/11.09/texmf-dist/fonts/type1/u
+rw/zapfchan/uzcmi8a.pfb>
+Output written on diptest-issues.pdf (7 pages, 411778 bytes).
+PDF statistics:
+ 240 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+
