@@ -1,5 +1,5 @@
 %\documentclass[article]{jss}
-%% -- $Id: diptest-issues.Rnw,v 1.9 2011/08/10 14:04:29 maechler Exp $
+%% -- $Id: diptest-issues.Rnw,v 1.9 2011/08/10 14:04:29 maechler Exp maechler $
 \documentclass[nojss,article]{jss}
 %              ----- for the package-vignette, don't use JSS logo, etc
 %
@@ -141,9 +141,9 @@ if(.Platform$OS.type != "windows")
 
 ## In order to  save() and load() expensive results
 thisDir <- system.file('doc', package='diptest')
-## xtraDir <- if(Sys.getenv("USER") == "maechler")
-##     "~/R/Pkgs/diptest/stuff" else thisDir
-## res1.file <- file.path(thisDir, "aggr_results.Rdata")
+xtraDir <- if(Sys.getenv("USER") == "maechler")
+    "~/R/Pkgs/diptest/stuff" else thisDir
+res1.file <- file.path(thisDir, "aggr_results.Rdata")
 
 <<diagnose-lib, echo=FALSE>>=
 if(nzchar(Sys.getenv("R_MM_PKG_CHECKING"))) print( .libPaths() )

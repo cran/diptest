@@ -15,9 +15,9 @@ if(.Platform$OS.type != "windows")
 
 ## In order to  save() and load() expensive results
 thisDir <- system.file('doc', package='diptest')
-## xtraDir <- if(Sys.getenv("USER") == "maechler")
-##     "~/R/Pkgs/diptest/stuff" else thisDir
-## res1.file <- file.path(thisDir, "aggr_results.Rdata")
+xtraDir <- if(Sys.getenv("USER") == "maechler")
+    "~/R/Pkgs/diptest/stuff" else thisDir
+res1.file <- file.path(thisDir, "aggr_results.Rdata")
 
 
 

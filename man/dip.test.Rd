@@ -5,6 +5,12 @@
   Compute Hartigans' dip statistic \eqn{D_n}{Dn}, and
   its P-value for the test for unimodality, by interpolating
   tabulated quantiles of \eqn{\sqrt{n} D_n}{sqrt(n) * Dn}.
+
+  For \eqn{X_i \sim F, i.i.d.}{X_i ~ F, i.i.d},
+  the null hypothesis is that \eqn{F} is a unimodal distribution.
+  Consequently, the test alternative is non-unimodal, i.e., at least
+  bimodal.  Using the language of medical testing, you would call the
+  test \dQuote{Test for \bold{Multi}modality}.
 }
 \usage{
 dip.test(x, simulate.p.value = FALSE, B = 2000)
