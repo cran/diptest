@@ -104,7 +104,7 @@ P.p <- as.numeric(print(noquote(dnqd[["Pr"]])))
 D <- dip(x <- faithful$waiting)
 n <- length(x)
 points(n, sqrt(n)*D, pch=13, cex=2, col= adjustcolor("blue2",.5), lwd=2)
-## a simulated (approximate) P-value for D  is
+## a simulated (approximate) $p$-value for D  is
 mean(D <= replicate(10000, dip(runif(n)))) ## ~ 0.002
 
 

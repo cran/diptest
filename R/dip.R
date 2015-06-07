@@ -90,8 +90,7 @@ aLine <- function(r.dip, lType = c("gcm","lcm","GCM","LCM"),
 		  type = "b", col="red3", lwd=1.5, ...)
 {
     lType <- match.arg(lType)
-    stopifnot(is.numeric(x <- r.dip$x),
-	      is.integer(n <- r.dip$n),
+    stopifnot(is.numeric(x <- r.dip$x), is.integer(r.dip$n),
 	      is.integer(i <- r.dip[[lType]]) # 'gcm' or 'lcm' or component
 	      )
     e <- if(lType %in% c("gcm","GCM")) .01*min(diff(unique(x))) else 0
