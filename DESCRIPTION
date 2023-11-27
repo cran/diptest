@@ -1,7 +1,7 @@
 Package: diptest
-Version: 0.76-0
-VersionNote: Last CRAN: 0.75-7 on 2015-06-07
-Date: 2021-05-04
+Version: 0.77-0
+VersionNote: Last CRAN: 0.76-0 on 2021-05-04
+Date: 2023-11-27
 Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
 Author: Martin Maechler (originally from Fortran and S-plus by Dario Ringach, NYU.edu)
 Title: Hartigan's Dip Test Statistic for Unimodality - Corrected
@@ -10,10 +10,10 @@ Description: Compute Hartigan's dip test statistic for unimodality /
  the original public code has been corrected.
 Imports: graphics, stats
 BuildResaveData: no
-BugReports: https://github.com/mmaechler/diptest/issues
 License: GPL (>= 2)
 URL: https://github.com/mmaechler/diptest
+BugReports: https://github.com/mmaechler/diptest/issues
 NeedsCompilation: yes
-Packaged: 2021-05-04 07:09:15 UTC; maechler
+Packaged: 2023-11-27 09:56:28 UTC; maechler
 Repository: CRAN
-Date/Publication: 2021-05-04 10:30:02 UTC
+Date/Publication: 2023-11-27 11:10:02 UTC
