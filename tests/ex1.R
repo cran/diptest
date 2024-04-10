@@ -10,10 +10,12 @@ stopifnot(d == dip(-u), d == 1/(2*n))# exact "=" for n = 4 !
 ## but rather 1/(2n) because that's  (1/n) / 2  and
 ## (1/n) is the correct distance between LCM and GCM
 
-## Small example -- but MM sees difference (32-bit / 64-bit):
+## Small example -- but MM sees difference (32-bit / 64-bit) *and* on M1mac:
 x <- c(0,2:3,5:6)
+## IGNORE_RDIFF_BEGIN
 d1 <- dip(x,   full=TRUE, debug=2)
 d2 <- dip(6-x, full=TRUE, debug=2)
+## IGNORE_RDIFF_END
 str(d1)
 str(d2)
 
@@ -50,6 +52,14 @@ str(dip(fE, full = "all", debug = 3),
 
 data(precip)
 str(dip(precip, full = TRUE, debug = TRUE))
+
+## current qDiptab <--> n = 72'000 is "asymptotic" boundary
+set.seed(123); x <- rnorm(72000)
+dt72k <- dip.test(x)
+## gave error  in qDiptab[i2, ] : subscript out of bounds  -- in diptest <= 0.77-0
+stopifnot(all.equal(list(statistic = c(D = 0.0005171098381181), p.value = 1, nobs = 72000L),
+                    dt72k[c("statistic", "p.value", "nobs")], tolerance = 1e-13))
+
 
 cat('Time elapsed: ', proc.time() - .pt,'\n') # "stats"
 
